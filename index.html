@@ -3,23 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Professional To-Do List</title>
-    <link rel="stylesheet" href="style.css">
-</head> `````````````````   
-
+    <title>Product Comparison App</title>
+    <!-- Linking CSS -->
+    <link rel="stylesheet" href="style8.css">
+</head>
 <body>
-
-    <div class="container">
-        <h1>To-Do List</h1>
-
-        <div class="input-section">
-            <input type="text" id="taskInput" placeholder="Enter your task...">
-            <button onclick="addTask()">Add</button>
+    <h1 class="title">Product Comparison Tool</h1>
+    <div class="comparison-container">
+        <div class="select-box">
+            <label>Select Product 1</label>
+            <select id="product1">
+                <option value="">-- choose --</option>       
+                <option value="iphone">iPhone 14</option>
+                <option value="samsung">Samsung S23</option>
+                <option value="oneplus">OnePlus 11</option>
+            </select>
         </div>
-
-        <ul id="taskList"></ul>
+        <div class="select-box">
+            <label>Select Product 2</label>
+            <select id="product2">
+                <option value="">-- choose --</option>
+                <option value="iphone">iPhone 14</option>
+                <option value="samsung">Samsung S23</option>
+                <option value="oneplus">OnePlus 11</option>
+            </select>
+        </div>
     </div>
-
-    <script src="script2.js"></script>
+    <!-- Where comparison cards will appear -->
+   <div id="result"></div>
+    <!-- JavaScript File -->
+    <script src="script.js">
+  </script>      
 </body>
 </html>
+
+-
